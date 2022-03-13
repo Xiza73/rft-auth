@@ -5,6 +5,7 @@ import { Register } from "./pages/Register";
 import { NotFound } from "./pages/NotFound";
 import { AuthProvider } from "./context/authProvider";
 import { ProtectedRoute } from "./components/ProtectedRoute";
+import "./app.scss";
 
 export function App() {
   return (

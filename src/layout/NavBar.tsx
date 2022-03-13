@@ -1,8 +1,3 @@
-export function NavBar () {
-    return (
-      <nav>
-        NavBar works!
-      </nav>
-    );
-  }
-  
+export function NavBar() {
+  return <>Navbar Works!</>;
+}

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
-import { errorHandler } from "../config/firebase";
+import { errorHandler } from "../config/firebaseAuth";
 import { useAuth } from "../context/authContext";
 import { Alert } from '../components/Alert';
 

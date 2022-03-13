@@ -9,7 +9,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import { auth } from "../config/firebase";
+import { auth } from "../config/firebaseAuth";
 import { Dispatch, SetStateAction } from "react";
 
 interface userState {
